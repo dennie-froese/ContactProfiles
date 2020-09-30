@@ -1,11 +1,20 @@
 import React from 'react';
 import Header from './src/components/Header';
-import {View, StyleSheet} from 'react-native';
+import Picture from './src/components/Picture';
+import {View, StyleSheet, ScrollView, useWindowDimensions} from 'react-native';
 
 export default function App() {
+  const dimensions = useWindowDimensions();
   return (
     <View style={styles.container}>
       <Header />
+      <ScrollView horizontal={true}>
+        <Picture />
+        <Picture />
+        <Picture />
+        <Picture />
+        <Picture />
+      </ScrollView>
     </View>
   );
 }
