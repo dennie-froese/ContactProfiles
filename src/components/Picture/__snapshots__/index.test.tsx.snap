@@ -5,24 +5,27 @@ exports[`Amount renders 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "lightgrey",
-      "borderBottomColor": "grey",
-      "borderBottomWidth": 0.5,
+      "borderColor": "black",
+      "borderRadius": 50,
+      "borderWidth": 2,
+      "flex": 1,
       "height": 100,
-      "justifyContent": "flex-end",
-      "paddingBottom": 15,
+      "justifyContent": "center",
+      "margin": 10,
+      "marginTop": 30,
+      "overflow": "hidden",
+      "width": 100,
     }
   }
 >
-  <Text
+  <View
     style={
       Object {
-        "fontSize": 20,
-        "fontWeight": "bold",
+        "backgroundColor": "red",
+        "height": 100,
+        "width": 100,
       }
     }
-  >
-    Contacts
-  </Text>
+  />
 </View>
 `;

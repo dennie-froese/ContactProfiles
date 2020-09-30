@@ -1,10 +1,9 @@
 import React from 'react';
 import Header from './src/components/Header';
 import Picture from './src/components/Picture';
-import {View, StyleSheet, ScrollView, useWindowDimensions} from 'react-native';
+import {View, StyleSheet, ScrollView} from 'react-native';
 
 export default function App() {
-  const dimensions = useWindowDimensions();
   return (
     <View style={styles.container}>
       <Header />

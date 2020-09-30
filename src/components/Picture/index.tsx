@@ -1,11 +1,11 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, StyleSheet} from 'react-native';
 
 interface Props {
-  profileID: string;
+  profileID?: string;
 }
 
-export default function Picture(profileID: Props) {
+export default function Picture(_profileID: Props) {
   return (
     <View style={styles.frame}>
       <View style={styles.picture} />
