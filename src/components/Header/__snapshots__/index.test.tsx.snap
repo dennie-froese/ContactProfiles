@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Amount renders 1`] = `
+exports[`Header renders 1`] = `
 <View
   style={
     Object {

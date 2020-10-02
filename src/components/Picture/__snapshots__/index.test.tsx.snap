@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Amount renders 1`] = `
+exports[`Picture renders 1`] = `
 <View
   style={
     Object {
@@ -18,10 +18,9 @@ exports[`Amount renders 1`] = `
     }
   }
 >
-  <View
+  <Image
     style={
       Object {
-        "backgroundColor": "red",
         "height": 100,
         "width": 100,
       }
